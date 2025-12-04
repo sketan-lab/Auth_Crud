@@ -1,10 +1,74 @@
-/requirement.txt
-*.env
+# ----------------------------
+# Python / FastAPI .gitignore
+# ----------------------------
+
+# Byte-compiled / optimized / DLL files
 __pycache__/
-*.pyc
-instance/
-.vscode/
-.DS_Store
-.idea/  
+*.py[cod]
+*$py.class
+
+# Virtual environment
 venv/
+.venv/
 env/
+ENV/
+
+# Environment variables
+*.env
+.env.*
+
+# VS Code settings
+.vscode/
+.vscode/settings.json
+
+# PyCharm
+.idea/
+
+# Local development databases
+*.sqlite3
+*.db
+
+# Logs
+*.log
+logs/
+uvicorn.log
+
+# Cache
+*.cache
+*.pkl
+cache/
+pip-wheel-metadata/
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# MyPy / Pylance / Pyright
+.mypy_cache/
+.pyright/
+typings/
+
+# Test & coverage
+htmlcov/
+.tox/
+.coverage
+coverage.xml
+.pytest_cache/
+
+# Uploaded files (if using file uploads)
+uploads/
+media/
+staticfiles/
+
+# Docker
+docker-compose.override.yml
+*.pid
+
+# Node (if you use React/Vue frontend inside project)
+node_modules/
+
+# MacOS
+.DS_Store
+
+# Linux temp files
+*~
