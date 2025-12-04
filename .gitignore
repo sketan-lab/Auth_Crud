@@ -1,0 +1,10 @@
+/requirement.txt
+*.env
+__pycache__/
+*.pyc
+instance/
+.vscode/
+.DS_Store
+.idea/  
+venv/
+env/
